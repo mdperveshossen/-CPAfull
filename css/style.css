@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, li, ol{
+    list-style: none;
+
+}
+a:hover{
+    text-decoration: none;
+}
+/* Common css ends */
+
+/* Navbar css start */
+.navbar-light .navbar-nav .nav-item .nav-link{
+    border-bottom: dotted 1px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #20252D;
+}
+nav{
+    height: 65px;
+    border-bottom: 2px solid #3a92d9;
+}
+.navbar-light .navbar-nav .nav-item  input{
+    border: 0;
+    border-bottom: 1px solid #97A2B2;
+    width: 210px;
+    margin-right: 20px;
+}
+.navbar-light .navbar-nav {
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-item .search-icon {
+    color: #97A2B2;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.navbar-light .navbar-nav .nav-item input:focus{
+    outline: 0;
+}
+/* Navbar css ends */
+/* Sidebar css started */
+#sidebar {
+    top: 65px;
+    width: 215px;
+    box-shadow: inset -6px 0px 10px -6px rgb(0 0 0 / 10%);
+    background-color: #424C5D;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    overflow: scroll;
+}
+#sidebar .dashboard{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+#sidebar #accordion .card{
+    background-color: #424C5D;
+    border: 0;
+}
+#sidebar #accordion .card .card-header{
+    border-bottom: 0;
+    cursor: pointer;
+    padding: 5px 0px;
+    position: relative;
+}
+#sidebar #accordion .card .card-header:hover{
+    background-color: #3a92d9;
+}
+#sidebar #accordion .card .card-header .arrow_down1{
+    position: absolute;
+    right: -85px;
+    bottom: 4px;
+}
+#sidebar #accordion .card .card-header .arrow_down2{
+    position: absolute;
+    right: -76px;
+    bottom: 4px;
+}
+#sidebar #accordion .card .card-header .arrow_down3{
+    position: absolute;
+    right: -94px;
+    bottom: 4px;
+}
+#sidebar #accordion .card .card-header .arrow_down4{
+    position: absolute;
+    right: -52px;
+    bottom: 4px;
+}
+#sidebar #accordion .card .card-header h5 button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+#sidebar #accordion .card .card-header h5 button span{
+    margin-left: 5px;
+}
+#sidebar #accordion .card .card-header h5 button:hover{
+    text-decoration: none;
+}
+#sidebar #accordion .card .card-header:hover h5 button .fa-chevron-down {
+    transform: rotate(180deg);
+}
+#sidebar #accordion .card .card-body{
+    background-color: #313845;
+    padding: 0 20px;
+}
+#sidebar #accordion .card .card-body ul li{
+    padding: 5px 15px;
+}
+#sidebar #accordion .card .card-body ul li a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#sidebar .account_detail p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 14px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+#sidebar .account_detail .account_avater{
+    position: relative;
+}
+#sidebar .account_detail .account_avater img{
+    width: 170px;
+    margin-left: 14px;   
+}
+#sidebar .account_detail .account_avater span{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px 58px 5px 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-left: 14px;
+}
+#sidebar .account_detail .info_detail{
+    margin-top: 20px;
+}
+#sidebar .account_detail .info_detail p{
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+#sidebar .account_detail .web_info ul li a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 14px;
+}
+#sidebar .account_detail .web_info {
+    border-top: 1px solid #556278;
+    border-bottom: 1px solid #556278;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+/* Sidebar css ends */
+/* Dashboard Body css started */
+#body{
+    margin-left: 215px;
+    background-color: #EEF0F2;
+    padding: 40px 45px;
+}
+/* Dashboard Body css ends */

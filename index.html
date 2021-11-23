@@ -1,18 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cpafull-Summary Report</title>
-     <link rel="icon" type="image/x-icon" href="/images//faviconico.ico">
+    <title>cpafull - Summary Report</title>
+    <link rel="icon" type="image/x-icon" href="/images//faviconico.ico">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
-    
+    <!--  Navigaion bar Started  -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"> <img style="height: 45px;" src="images//logo.png" alt=""> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--  Navigaion bar Ends  -->
+    <!--  Sidebar Started  -->
+    <div id="sidebar">
+        <div id="accordion">
+            <div class="card panel">
+                <div class="card-header panel-heading" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            <a class="dashboard" href="index.html"><i class="fas fa-home"></i>
+                                <span>Dashboard</span></a>
+                        </button>
+                    </h5>
+                </div>
+            </div>
+            <div class="card panel">
+                <div class="card-header panel-heading" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            <i class="far fa-comment-alt"></i> <span>Offers</span> <span class="arrow_down1"><i class="fas fa-chevron-down arrow_down"></i></span>
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <ul>
+                            <li>
+                                <a href="#">All Offers</a>
+                            </li>
+                            <li>
+
+                                <a href="#">My Live Offers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card panel">
+                <div class="card-header panel-heading" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            <i class="fas fa-chart-area"></i> <span>Reports</span>  <span class="arrow_down2"><i class="fas fa-chevron-down arrow_down"></i></span>
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <ul>
+                            <li>
+                                <a href="#">Performance Report</a>
+                            </li>
+                            <li>
+                                <a href="#">Conversion Report</a>
+                            </li>
+                            <li>
+                                <a href="#">Referral Report</a>
+                            </li>
+                            <li>
+                                <a href="#">Saved Report</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card panel">
+                <div class="card-header panel-heading" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            <i class="fab fa-buromobelexperte"></i> <span>Tools</span>   <span class="arrow_down3"><i class="fas fa-chevron-down arrow_down"></i></span>
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <ul>
+                            <li>
+                                <a href="#">APIs</a>
+                            </li>
+                            <li>
+                                <a href="#">Pixels/Postbacks</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card panel">
+                <div class="card-header panel-heading" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            <i class="far fa-user"></i> <span>My Account</span> <span class="arrow_down4"><i class="fas fa-chevron-down arrow_down"></i></span>
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <ul>
+                            <li>
+                                <a href="#">Payment FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#">Account Details</a>
+                            </li>
+                            <li>
+                                <a href="#">Billing</a>
+                            </li>
+                            <li>
+                                <a href="#">Settings</a>
+                            </li>
+                            <li>
+                                <a href="#">Notifications</a>
+                            </li>
+                            <li>
+                                <a href="#">W8-ben-None USA</a>
+                            </li>
+                            <li>
+                                <a href="#">W9-USA Tax Form</a>
+                            </li>
+                            <li>
+                                <a href="#">Review US</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="account_detail">
+            <p>Account Manager: </p>
+            <div class="account_avater">
+                <img src="images//avater.jpg" alt="">
+                <span>Andy Huang</span>
+            </div>
+            <div class="info_detail">
+                <p> <span><i class="fas fa-phone"></i></span> 6262152824</p>
+                <p> <span><i class="fas fa-comments"></i></span> skype:andycpafull</p>
+                <p> <span><i class="far fa-envelope"></i></span> andyhuang@cpafull.com</p>
+            </div>
+            <div class="web_info">
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!--  Sidebar Ends  -->
+    <!-- Dashboard Body Started -->
+    <section id="body" >
+        <h1>Dashboard</h1>
+    </section>
+    <!-- Dashboard Body Ends -->
+
+
 
 
 
@@ -33,5 +219,16 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        $(".panel-heading").parent('.panel').hover(
+            function () {
+                $(this).children('.collapse').collapse('show');
+            },
+            function () {
+                $(this).children('.collapse').collapse('hide');
+            }
+        );
+    </script>
 </body>
+
 </html>
